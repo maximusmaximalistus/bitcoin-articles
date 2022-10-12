@@ -1,5 +1,7 @@
 
-# This guide will teach you how to install a bitcoin node (base layer) using mainnet and testnet with two different bitcoin.conf files and data folders.
+# Bitcoin begginers guide - How to run bitcoin nodes in Windows (a basic approach)
+
+This guide will teach you how to install a bitcoin node (base layer) using mainnet and testnet with two different bitcoin.conf files and data folders.
 The mainnet node will run in pruned mode and use only 1.2GB for storing blocks. The old blocks will be deleted.
 It was done for Windows, but the concept will work both in Linux and Mac.
 
