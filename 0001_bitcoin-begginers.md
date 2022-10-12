@@ -80,6 +80,7 @@ https://github.com/bitcoinbook/bitcoinbook
 https://bitcointalk.org/index.php?topic=5237763.0 (testnet faucets)
 
 
+Tips:
 
 clyde_nakamoto@coinos.io
 
