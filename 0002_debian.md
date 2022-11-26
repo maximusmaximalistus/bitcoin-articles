@@ -1,3 +1,29 @@
+# !!In construction!!
+
+# Overview
+This guide will install Debian Linux OS in HDD, external hard drive or USB stick, both in EFI and Legacy BIOS.
+
+It uses LVM on LUKS 
+
+https://wiki.archlinux.org/title/dm-crypt/Encrypting_an_entire_system#LVM_on_LUKS
+
+```
++-----------------------------------------------------------------------+ +----------------+
+| Logical volume 1      | Logical volume 2      | Logical volume 3      | | Boot partition |
+|                       |                       |                       | |                |
+| [SWAP]                | /                     | /home                 | | /boot          |
+|                       |                       |                       | |                |
+| /dev/MyVolGroup/swap  | /dev/MyVolGroup/root  | /dev/MyVolGroup/home  | |                |
+|_ _ _ _ _ _ _ _ _ _ _ _|_ _ _ _ _ _ _ _ _ _ _ _|_ _ _ _ _ _ _ _ _ _ _ _| | (may be on     |
+|                                                                       | | other device)  |
+|                         LUKS2 encrypted partition                     | |                |
+|                           /dev/sda1                                   | | /dev/sdb1      |
++-----------------------------------------------------------------------+ +----------------+
+```
+
+The boot partition will not be encrypted!!
+
+
 
 
 ![alt text](./images/VirtualBox_Debian_11.5-1.png)
