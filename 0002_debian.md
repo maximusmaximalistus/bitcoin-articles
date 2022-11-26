@@ -219,6 +219,15 @@ The boot partition will not be encrypted!!
 
 
 ## Issues with GRUB.
+### Adding your user to sudo group.
+
+![alt text](./images/VirtualBox_Debian_11.5-91.png)
+
+![alt text](./images/VirtualBox_Debian_11.5-92.png)
+
+![alt text](./images/VirtualBox_Debian_11.5-93.png)
+
+Restart.
 
 ### Install GRUB on the EFI partition of the storage device you used.
 If you have already a EFI partition on your system, this setup will use it instead the one you created in the partition process. 
@@ -227,7 +236,49 @@ But that can be changed.
 
 Just boot your new install immediately after finishing the installation process. Don't remove nothing of your system beside the installation DVD or CD if you use them for installation. If you used a USB stick don't remove it, because this can change the layout of the disks in your system.
 
-(...)
+![alt text](./images/VirtualBox_Debian_11.5-100.png)
+
+![alt text](./images/VirtualBox_Debian_11.5-101.png)
+
+![alt text](./images/VirtualBox_Debian_11.5-102.png)
+
+![alt text](./images/VirtualBox_Debian_11.5-103.png)
+
+![alt text](./images/VirtualBox_Debian_11.5-104.png)
+
+![alt text](./images/VirtualBox_Debian_11.5-105.png)
+
+![alt text](./images/VirtualBox_Debian_11.5-106.png)
+
+![alt text](./images/VirtualBox_Debian_11.5-107.png)
+
+![alt text](./images/VirtualBox_Debian_11.5-108.png)
+
+![alt text](./images/VirtualBox_Debian_11.5-109.png)
+
+![alt text](./images/VirtualBox_Debian_11.5-110.png)
+
+![alt text](./images/VirtualBox_Debian_11.5-111.png)
+
+![alt text](./images/VirtualBox_Debian_11.5-112.png)
+
+![alt text](./images/VirtualBox_Debian_11.5-113.png)
+
+![alt text](./images/VirtualBox_Debian_11.5-114.png)
+
+![alt text](./images/VirtualBox_Debian_11.5-115.png)
+
+![alt text](./images/VirtualBox_Debian_11.5-116.png)
+
+![alt text](./images/VirtualBox_Debian_11.5-117.png)
+
+![alt text](./images/VirtualBox_Debian_11.5-118.png)
+
+![alt text](./images/VirtualBox_Debian_11.5-119.png)
+
+![alt text](./images/VirtualBox_Debian_11.5-120.png)
+
+Restart.
 
 ### Install GRUB on the BIOS boot area of the storage device you used. So you can boot this storage device in a system without EFI (optional).
 (...)
