@@ -209,6 +209,8 @@ The boot partition will not be encrypted!!
 
 ## First boot.
 
+Just boot your new install immediately after finishing the installation process. Don't remove nothing of your system beside the installation DVD or CD if you use them for installation. If you used a USB stick don't remove it, because this can change the layout of the disks in your system.
+
 ![alt text](./images/VirtualBox_Debian_11.5-86.png)
 
 ![alt text](./images/VirtualBox_Debian_11.5-87.png)
@@ -217,6 +219,9 @@ The boot partition will not be encrypted!!
 
 ![alt text](./images/VirtualBox_Debian_11.5-89.png)
 
+If you have already a EFI partition on your system, this setup will use it instead the one you created in the partition process. 
+
+But that can be changed. 
 
 ## Issues with GRUB.
 ### Adding your user to sudo group.
@@ -230,11 +235,6 @@ The boot partition will not be encrypted!!
 Restart.
 
 ### Install GRUB on the EFI partition of the storage device you used.
-If you have already a EFI partition on your system, this setup will use it instead the one you created in the partition process. 
-
-But that can be changed. 
-
-Just boot your new install immediately after finishing the installation process. Don't remove nothing of your system beside the installation DVD or CD if you use them for installation. If you used a USB stick don't remove it, because this can change the layout of the disks in your system.
 
 ![alt text](./images/VirtualBox_Debian_11.5-100.png)
 
