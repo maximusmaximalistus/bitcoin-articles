@@ -1,6 +1,6 @@
 # !!In construction!!
 
-# Overview
+# Overview:
 This guide will install Debian Linux OS in HDD, external hard drive or USB stick, both in EFI and Legacy BIOS.
 
 It uses LVM on LUKS 
@@ -44,7 +44,7 @@ The boot partition will not be encrypted!!
 
 ![alt text](./images/VirtualBox_Debian_11.5-9.png)
 
-## Users
+## Users.
 
 ![alt text](./images/VirtualBox_Debian_11.5-10.png)
 
@@ -58,8 +58,8 @@ The boot partition will not be encrypted!!
 
 ![alt text](./images/VirtualBox_Debian_11.5-15.png)
 
-## Partition 
-### BIOS boat area, EFI partition and /boot partition 
+## Partitioning. 
+### BIOS boot area, EFI partition and /boot partition.
 
 ![alt text](./images/VirtualBox_Debian_11.5-16.png)
 
@@ -111,7 +111,7 @@ The boot partition will not be encrypted!!
 
 ![alt text](./images/VirtualBox_Debian_11.5-40.png)
 
-### LUKS
+### LUKS.
 
 ![alt text](./images/VirtualBox_Debian_11.5-41.png)
 
@@ -133,7 +133,7 @@ The boot partition will not be encrypted!!
 
 ![alt text](./images/VirtualBox_Debian_11.5-50.png)
 
-### LVM
+### LVM.
 
 ![alt text](./images/VirtualBox_Debian_11.5-51.png)
 
@@ -191,7 +191,7 @@ The boot partition will not be encrypted!!
 
 ![alt text](./images/VirtualBox_Debian_11.5-78.png)
 
-### Installing the base system 
+### Installing the base system. 
 
 ![alt text](./images/VirtualBox_Debian_11.5-79.png)
 
@@ -207,7 +207,7 @@ The boot partition will not be encrypted!!
 
 ![alt text](./images/VirtualBox_Debian_11.5-85.png)
 
-## First boot 
+## First boot.
 
 ![alt text](./images/VirtualBox_Debian_11.5-86.png)
 
@@ -218,6 +218,14 @@ The boot partition will not be encrypted!!
 ![alt text](./images/VirtualBox_Debian_11.5-89.png)
 
 
-## Issues with GRUB
+## Issues with GRUB.
 
+### Install GRUB on the EFI partition of the storage device you used.
+If you have already a EFI partition on your system, this setup will use it instead the one you created in the partition process. 
+
+But that can be changed. 
+
+Just boot your new install immediately after finishing the installation process. Don't remove nothing of your system beside the installation DVD or CD if you use them for installation. If you used a USB stick don't remove it, because this can change the layout of the disks in your system.
+
+### Install GRUB on the BIOS boot area of the storage device you used. So you can boot this storage device in a system without EFI (optional).
 (...)
