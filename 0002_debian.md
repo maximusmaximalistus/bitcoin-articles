@@ -209,7 +209,7 @@ The boot partition will not be encrypted!!
 
 ## First boot.
 
-Just boot your new install immediately after finishing the installation process. Don't remove nothing of your system beside the installation DVD or CD if you use them for installation. If you used a USB stick don't remove it, because this can change the layout of the disks in your system.
+Just boot your new install immediately after finishing the installation process. Don't remove anything from your system beside the installation DVD or CD if you use them for installation. If you used a USB stick don't remove it, because this can change the layout of the disks in your system.
 
 ![alt text](./images/VirtualBox_Debian_11.5-86.png)
 
@@ -279,6 +279,8 @@ Restart.
 ![alt text](./images/VirtualBox_Debian_11.5-120.png)
 
 Restart.
+
+Now you can remove the installation USB stick, if you use it. And connect a disconnect external storage devices. GRUB is installed in the EFI partition your created in the installation process. 
 
 ### Install GRUB on the BIOS boot area of the storage device you used. So you can boot this storage device in a system without EFI (optional).
 (...)
