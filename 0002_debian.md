@@ -227,5 +227,7 @@ But that can be changed.
 
 Just boot your new install immediately after finishing the installation process. Don't remove nothing of your system beside the installation DVD or CD if you use them for installation. If you used a USB stick don't remove it, because this can change the layout of the disks in your system.
 
+(...)
+
 ### Install GRUB on the BIOS boot area of the storage device you used. So you can boot this storage device in a system without EFI (optional).
 (...)
