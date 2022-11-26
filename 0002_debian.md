@@ -24,7 +24,7 @@ https://wiki.archlinux.org/title/dm-crypt/Encrypting_an_entire_system#LVM_on_LUK
 The boot partition will not be encrypted!!
 
 
-
+## Language, location, locales, keyboard and network.
 
 ![alt text](./images/VirtualBox_Debian_11.5-1.png)
 
@@ -44,6 +44,8 @@ The boot partition will not be encrypted!!
 
 ![alt text](./images/VirtualBox_Debian_11.5-9.png)
 
+## Users
+
 ![alt text](./images/VirtualBox_Debian_11.5-10.png)
 
 ![alt text](./images/VirtualBox_Debian_11.5-11.png)
@@ -55,6 +57,9 @@ The boot partition will not be encrypted!!
 ![alt text](./images/VirtualBox_Debian_11.5-14.png)
 
 ![alt text](./images/VirtualBox_Debian_11.5-15.png)
+
+## Partition 
+### BIOS boat area, EFI partition and /boot partition 
 
 ![alt text](./images/VirtualBox_Debian_11.5-16.png)
 
@@ -106,6 +111,8 @@ The boot partition will not be encrypted!!
 
 ![alt text](./images/VirtualBox_Debian_11.5-40.png)
 
+### LUKS
+
 ![alt text](./images/VirtualBox_Debian_11.5-41.png)
 
 ![alt text](./images/VirtualBox_Debian_11.5-42.png)
@@ -125,6 +132,8 @@ The boot partition will not be encrypted!!
 ![alt text](./images/VirtualBox_Debian_11.5-49.png)
 
 ![alt text](./images/VirtualBox_Debian_11.5-50.png)
+
+### LVM
 
 ![alt text](./images/VirtualBox_Debian_11.5-51.png)
 
@@ -182,6 +191,8 @@ The boot partition will not be encrypted!!
 
 ![alt text](./images/VirtualBox_Debian_11.5-78.png)
 
+### Installing the base system 
+
 ![alt text](./images/VirtualBox_Debian_11.5-79.png)
 
 ![alt text](./images/VirtualBox_Debian_11.5-80.png)
@@ -196,6 +207,8 @@ The boot partition will not be encrypted!!
 
 ![alt text](./images/VirtualBox_Debian_11.5-85.png)
 
+## First boot 
+
 ![alt text](./images/VirtualBox_Debian_11.5-86.png)
 
 ![alt text](./images/VirtualBox_Debian_11.5-87.png)
@@ -203,3 +216,8 @@ The boot partition will not be encrypted!!
 ![alt text](./images/VirtualBox_Debian_11.5-88.png)
 
 ![alt text](./images/VirtualBox_Debian_11.5-89.png)
+
+
+## Issues with GRUB
+
+(...)
