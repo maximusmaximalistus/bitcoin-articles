@@ -61,6 +61,12 @@ The boot partition will not be encrypted!!
 ## Partitioning. 
 ### BIOS boot area, EFI partition and /boot partition.
 
+The partitioning was made assuming 16GB of capacity. This allow the setup to even run in a cheap 16 GB USB stick.
+
+In a medium with more storage capacity, the / and /home partitions should be bigger than the ones of this guide. But it all depends on the use case and the storage available. 
+
+Using 80GB for / and the rest for /home it will be enough for most users. The size chosen for /home it also depends in what it will be stored there and the use case. And if you want to also use the medium to something else, choose the size accordingly. 80GB will be a good size for /home. If you plan to store pictures and videos in there, use more. 
+
 ![alt text](./images/VirtualBox_Debian_11.5-16.png)
 
 ![alt text](./images/VirtualBox_Debian_11.5-17.png)
@@ -280,7 +286,7 @@ Restart.
 
 Restart.
 
-Now you can remove the installation USB stick, if you use it. And connect a disconnect external storage devices. GRUB is installed in the EFI partition your created in the installation process. 
+Now you can remove the installation USB stick, if you use it. And connect and disconnect external storage devices. GRUB is installed in the EFI partition your created in the installation process. 
 
 ### Install GRUB on the BIOS boot area of the storage device you used. So you can boot this storage device in a system without EFI (optional).
 (...)
