@@ -68,8 +68,8 @@ It was done for Windows, but the concept will work both in Linux and Mac.
 
 
 
-
-More:
+---
+**More:**
 
 https://www.lopp.net/
 
@@ -80,7 +80,7 @@ https://github.com/bitcoinbook/bitcoinbook
 https://bitcointalk.org/index.php?topic=5237763.0 (testnet faucets)
 
 
-Tips:
+**Tips:**
 
 clyde_nakamoto@coinos.io
 
