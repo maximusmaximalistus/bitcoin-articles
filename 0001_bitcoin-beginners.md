@@ -17,7 +17,7 @@ It was done for Windows, but the concept will work both in Linux and Mac.
 
 		%APPDATA%
 
-	. Crate a folder named Bitcoin.
+	. Create a folder named Bitcoin.
 
 	. Create two folders one named mainnet and the other testnet inside the Bitcoin folder.
 
