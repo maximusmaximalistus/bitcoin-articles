@@ -82,6 +82,4 @@ https://bitcointalk.org/index.php?topic=5237763.0 (testnet faucets)
 
 **Tips:**
 
-clyde_nakamoto@coinos.io
-
-https://coinos.io/clyde_nakamoto
+myedward35@walletofsatoshi.com
